@@ -2,7 +2,7 @@
 
 Jupyterlab extension to highlight Stan syntax. 
 Modeled on the [VSCode grammar](https://github.com/ivan-bocharov/stan-vscode) and uses 
-stan[stan-language-definitions](https://github.com/jrnold/stan-language-definitions)
+[stan-language-definitions](https://github.com/jrnold/stan-language-definitions)
 
 Use it with [CmdStanJupyter](https://github.com/WardBrian/CmdStanJupyter)
 
