@@ -108,6 +108,9 @@ data {
   real<lower = 0., upper = 1.> alpha;
   real<lower = 0.> bravo;
   real<upper = 1.> charlie;
+    
+  real<offset=10> test2;
+  real<offset=10, multiplier=bravo> test3;
 
   // arrays
   int echo[1];
@@ -136,6 +139,8 @@ transformed data {
   row_vector[2] victor = [1, 2];
   matrix[2, 2] mike = [[1, 2], [3, 4]];
   real sierra[2] = {1., 2.};
+  real badint += log(10);
+
 }
 parameters {
   real hotel;
@@ -152,6 +157,7 @@ model {
   real odeout[2, 2];
   real algout[2, 2];
 
+  k = x < 3 ? 2 : 1;
   // if else statements
   if (x_real < 0) x = 0.;
 
@@ -383,6 +389,13 @@ model {
   x = normal_log(0.5, 0.0, 1.0);
   x = normal_cdf_log(0.5, 0.0, 1.0);
   x = normal_ccdf_log(0.5, 0.0, 1.0);
+    
+     
+  // deprecated/illegal variable
+  int illegal__ <- get_lp();
+  // reserved
+  auto;
+  functions = 10;
 
 }
 generated quantities {
