@@ -1,8 +1,8 @@
 {
-  "name": "jupyterlab-stata-highlight",
+  "name": "jupyterlab-stan-highlight",
   "version": "0.1.2",
-  "description": "Jupyterlab extension to highlight Stata syntax",
-  "author": "Kyle Barron",
+  "description": "Jupyterlab extension to highlight Stan syntax",
+  "author": "Brian Ward",
   "main": "lib/plugin.js",
   "keywords": [
     "jupyter",
@@ -11,7 +11,7 @@
   ],
   "license": "MIT",
   "repository": {
-    "url": "git@github.com:kylebarron/jupyterlab-stata-highlight.git",
+    "url": "git@github.com:WardBrian/jupyterlab-stan-highlight.git",
     "type": "git"
   },
   "jupyterlab": {

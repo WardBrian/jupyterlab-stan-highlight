@@ -4,6 +4,6 @@
 
 def _jupyter_labextension_paths():
     return [{
-        'name': 'jupyterlab-stata-highlight',
+        'name': 'jupyterlab-stan-highlight',
         'src': 'static',
     }]
