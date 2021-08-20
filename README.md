@@ -11,13 +11,13 @@ Use it with [CmdStanJupyter](https://github.com/WardBrian/CmdStanJupyter)
 
 * JupyterLab
 
-<!-- ## Installation
+## Installation
 
-To install using pip:
+To install the released version from [npm](https://www.npmjs.com/package/jupyterlab-stan-highlight):
 
 ```bash
 jupyter labextension install jupyterlab-stan-highlight
-``` -->
+```
 
 ## Development
 
