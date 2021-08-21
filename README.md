@@ -4,7 +4,8 @@ Jupyterlab extension to highlight Stan syntax.
 Modeled on the [VSCode grammar](https://github.com/ivan-bocharov/stan-vscode) and uses 
 [stan-language-definitions](https://github.com/jrnold/stan-language-definitions)
 
-Use it with [CmdStanJupyter](https://github.com/WardBrian/CmdStanJupyter)
+Use it with [CmdStanJupyter](https://github.com/WardBrian/CmdStanJupyter) to recieve
+highlighting for your `%%stan` blocks in python notebooks!
 
 
 ## Prerequisites
