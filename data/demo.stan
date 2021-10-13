@@ -282,6 +282,12 @@ model {
   x = -12.0E+34;
   x = -.1e+34;
   x = -.1E+34;
+    
+  complex z = 3 + 3i;
+  z = 2.3i;
+  z = 3.4e10i;
+  z = 0i;
+
 
   // assignment statements
   x = 1;
