@@ -1,5 +1,7 @@
 # jupyterlab-stan-highlight
 
+**Note**: The breaking changes in Jupyterlab 4 have broken this extension. It still functions in Jupyterlab 3. Help updating is appreciated!
+
 Jupyterlab extension to highlight Stan syntax. 
 Modeled on the [VSCode grammar](https://github.com/ivan-bocharov/stan-vscode) and uses 
 [stan-language-definitions](https://github.com/jrnold/stan-language-definitions)
