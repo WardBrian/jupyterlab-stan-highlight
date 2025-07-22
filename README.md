@@ -1,3 +1,7 @@
+# The functionality in this package is moving to [CmdStanJupyter](https://github.com/WardBrian/CmdStanJupyter)
+
+---- 
+
 # jupyterlab-stan-highlight
 
 **Note**: The breaking changes in Jupyterlab 4 have broken this extension. It still functions in Jupyterlab 3. Help updating is appreciated!
